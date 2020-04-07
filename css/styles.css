@@ -83,10 +83,10 @@ img {
 /* Header styles */
 
 .header {
-  padding: 0 40px;
+  padding: 0 20px;
   color:#008CBA;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
