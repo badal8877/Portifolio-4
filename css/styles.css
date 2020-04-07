@@ -84,6 +84,7 @@ img {
 /* Header styles */
 
 .header {
+  display: flex;
   padding: 0 20px;
   color:#008CBA;
   display: flex;
@@ -96,6 +97,7 @@ img {
 }
 
 .header__logo {
+  display: flex;
   position: relative;
   font-family: 'Reem Kufi', sans-serif;
   font-size: 1.75em;
