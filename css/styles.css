@@ -84,7 +84,6 @@ img {
 /* Header styles */
 .header {
   width: 100%;
-  border-bottom: 1px solid black;
   text-align: right;
   position: relative;
   
@@ -95,7 +94,6 @@ img {
     font-size: 32px;
     font-weight: 100;
     padding: 26px;
-    border-right: 1px solid black;
   }
 }
 
@@ -105,7 +103,6 @@ img {
   margin: 15px 25px;
   position: relative;
   text-decoration: none;
-  /*text-transform: uppercase;*/
   color: #0277BD;
   font-weight: 600;
   font-size: 24px;
