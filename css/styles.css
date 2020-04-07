@@ -1,9 +1,7 @@
 /* Typography */
-@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
 
 html, body {
-  font-family: 'Dosis';
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
@@ -101,29 +99,7 @@ img {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/* Header styles*/
 
-
-.header {
-  width: 100%;
-  border-bottom: 2px;
-  border-bottom-color: transparent;
-  text-align: right;
-  position: relative;
-  color: #0277BD;
-  text-shadow: 2px 2px 5px #0277BD;
-  
-  .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 30px;
-    font-weight: 800;
-    padding: 15px;
-    border-bottom-color: transparent;
-    border-right: 1px;
-  }
-}
 
 .link {
   display: inline-block;
