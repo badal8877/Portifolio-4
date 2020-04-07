@@ -96,9 +96,7 @@ img {
 }
 
 .header__logo {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   font-family: 'Reem Kufi', sans-serif;
   font-size: 1.75em;
   font-weight: 600;
@@ -133,7 +131,7 @@ img {
   margin: 15px 25px;
   position: relative;
   text-decoration: none;
-  color: #0f0f0f;
+  color:#008CBA;
   font-weight: 800;
   font-size: 20px;
   
