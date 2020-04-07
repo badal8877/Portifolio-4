@@ -81,7 +81,25 @@ img {
   align-self: center;
 }
 
-/* Header styles */
+/*Buttons*/
+.button {
+  background-color: white;
+  border: 4px solid #008CBA;
+  border-radius: 12px;
+  color: #0277BD;
+  padding: 10px 25px;
+  text-align: center;
+  text-shadow: 2px 2px 5px #0277BD;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Header styles
 .header {
   width: 100%;
   text-align: right;
@@ -118,19 +136,4 @@ img {
     transition: all 300ms;
   }
 
-/*Buttons*/
-.button {
-  background-color: white;
-  border: 4px solid #008CBA;
-  border-radius: 12px;
-  color: #0277BD;
-  padding: 10px 25px;
-  text-align: center;
-  text-shadow: 2px 2px 5px #0277BD;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+*/
