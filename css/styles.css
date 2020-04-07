@@ -72,4 +72,5 @@ main > .tagline {
 
 img {
   border-radius: 50%;
+  align-self: center;
 }
