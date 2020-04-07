@@ -104,7 +104,7 @@ img {
 /* Header styles*/
 .header {
   width: 100%;
-  text-align: left;
+  text-align: right;
   position: relative;
   
   .logo {
