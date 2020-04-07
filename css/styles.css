@@ -128,7 +128,7 @@ img {
 }
 
 .link {
-  display: flex;
+ /* display: flex;*/
   padding: 0 20px;
   color:#008CBA;
   display: flex;
@@ -142,7 +142,7 @@ img {
   font-family: 'Reem Kufi', sans-serif;
   font-size: 1.75em;
   font-weight: 600;
-  /*display: inline-block;*/
+  display: inline-block;
   /*padding: 10px 0;
   margin: 15px 25px;
   position: relative;
