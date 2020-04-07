@@ -70,21 +70,6 @@ main > .tagline {
 	height: 2.65rem;
 }
 
-#preloader {
-	position: fixed;
-	background: #131313;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 100%;
-	z-index: 10000;
-}
-
 img {
   border-radius: 50%;
 }
