@@ -102,6 +102,15 @@ img {
   flex: 1;
 }
 
+.footer {
+  padding: 0 20px;
+  color:#008CBA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-shadow: 2px 2px 5px #0277BD;
+}
+
 /*Buttons*/
 .button {
   background-color: white;
