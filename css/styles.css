@@ -81,10 +81,12 @@ img {
 
 /*Buttons*/
 .button {
-  background-color: #0277BD;
+  /*background-color: #0277BD;*/
   float:left
   border: none;
-  color: black;
+  background-color: white;
+  color: #0277BD;
+  border: 2px solid #0277BD;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
