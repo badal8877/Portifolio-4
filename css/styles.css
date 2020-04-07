@@ -71,14 +71,9 @@ main > .tagline {
 }
 
 img {
-  border-radius: 50%;
-}
-
-/*img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
   width: 50%;
 }
-
-*/
