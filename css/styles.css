@@ -86,7 +86,7 @@ img {
   padding: 0 20px;
   color:#008CBA;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
