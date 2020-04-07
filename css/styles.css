@@ -93,8 +93,11 @@ img {
 }
 
 .header__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
   font-family: 'Reem Kufi', sans-serif;
-	font-size: 1.75em;
+  font-size: 1.75em;
   font-weight: 600;
 }
 
@@ -141,9 +144,7 @@ html, body {
   position: relative;
   
   .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
+    
     font-size: 32px;
     font-weight: 100;
     padding: 26px;
@@ -153,11 +154,11 @@ html, body {
 
 .link {
   display: inline-block;
-  padding: 15px 0;
+  padding: 10px 0;
   margin: 15px 25px;
   position: relative;
   text-decoration: none;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   color: #0f0f0f;
   font-weight: 800;
   font-size: 24px;
