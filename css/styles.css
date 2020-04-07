@@ -85,11 +85,6 @@ main > .tagline {
 	z-index: 10000;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
-
 img {
   border-radius: 50%;
 }
