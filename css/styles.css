@@ -45,14 +45,14 @@ main {
 	align-items: center;
 	padding: 0 0px;
 	text-align: center;
-	text-shadow: 2px 2px 5px #0277BD
+	text-shadow: 2px 2px 5px #0277BD;
 }
 
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.50em;
 	font-weight: 600;
-	text-shadow: 2px 2px 5px #0277BD
+	text-shadow: 2px 2px 5px #0277BD;
 }
 
 main > .tagline {
@@ -102,36 +102,44 @@ img {
 }
 
 /* Header styles*/
+
+
 .header {
   width: 100%;
+  border-bottom: 2px;
+  border-bottom-color: transparent;
   text-align: right;
   position: relative;
+  color: #0277BD;
+  text-shadow: 2px 2px 5px #0277BD;
   
   .logo {
     position: absolute;
     top: 0;
     left: 0;
-    color: #0277BD;
     font-size: 30px;
     font-weight: 800;
-    padding: 20px;
+    padding: 15px;
+    border-bottom-color: transparent;
+    border-right: 1px;
   }
 }
 
 .link {
   display: inline-block;
-  padding: 15px 0;
-  margin: 10px 20px;
+  padding: 10px 0;
+  margin: 10px 15px;
   position: relative;
   text-decoration: none;
+  
   color: #0277BD;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 24px;
   
   .bar {
     width: 100%;
     display: inline-block;
-    border-bottom: 5px #0277BD;
+    border-bottom: 5px solid blue;
     position: absolute;
     bottom: 0;
     left: 0;
