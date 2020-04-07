@@ -89,3 +89,7 @@ main > .tagline {
   width: 100%;
   height: auto;
 }
+
+img {
+  border-radius: 50%;
+}
