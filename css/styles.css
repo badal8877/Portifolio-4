@@ -128,6 +128,16 @@ img {
 }
 
 .link {
+  display: flex;
+  padding: 0 20px;
+  color:#008CBA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-shadow: 2px 2px 5px #0277BD;
+  width: 100%;
+  text-align: right;
+  position: relative;
   display: inline-block;
   padding: 10px 0;
   margin: 15px 25px;
