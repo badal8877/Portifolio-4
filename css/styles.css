@@ -84,8 +84,9 @@ img {
 .button {
   background-color: white;
   border: 2px solid #008CBA;
+  border-radius: 8px
   color: #0277BD;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-shadow: 2px 2px 5px #0277BD;
   text-decoration: none;
