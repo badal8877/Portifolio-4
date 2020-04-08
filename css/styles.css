@@ -43,7 +43,7 @@ main {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  padding: 0 0px;
+  padding: 0px 0px 5px 5px;
   text-align: center;
   text-shadow: 2px 2px 5px #0277BD;
 }
