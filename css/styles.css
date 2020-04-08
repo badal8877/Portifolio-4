@@ -63,7 +63,7 @@ main>.tagline {
 }
 
 .icons-social i {
-  padding: 10px;
+  padding: 15px 10px 15px 10px ;
 }
 
 .devto {
@@ -73,7 +73,6 @@ main>.tagline {
 .devto svg {
   margin-bottom: -0.20rem;
   margin-left: 0.675rem;
-  ;
   width: 2.65rem;
   height: 2.65rem;
 }
