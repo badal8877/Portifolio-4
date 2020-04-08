@@ -36,7 +36,6 @@ body {
 
 
 /* Custom Styles */
-
 main {
   display: flex;
   flex-direction: column;
@@ -76,8 +75,6 @@ main>.tagline {
   width: 2.65rem;
   height: 2.65rem;
 }
-
-
 /* Profile Picture */
 
 img {
@@ -93,7 +90,7 @@ img {
   background-color: white;
   border: 4px solid #008CBA;
   border-radius: 12px;
-  color: #0277BD;
+  /*color: #0277BD;*/
   padding: 10px 15px 10px 15px;
   text-align: center;
   text-shadow: 2px 2px 5px #0277BD;
@@ -107,13 +104,12 @@ img {
 
 .link {
     display: inline-block;
-    /*padding: 0px 2px 0px 2px;*/
-   margin: 1px 5px;
+    margin: 1px 5px;
     position: relative;
     text-decoration: none;
-  padding: 10px 15px 10px 15px;
-  text-align: center;
-    color: #0277BD;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    /*color: #0277BD;*/
     font-weight: 800;
     font-size: 20px;
 }
