@@ -116,7 +116,7 @@ img {
 /*Buttons*/
 
 .button {
- /* background-color: white; */
+  background-color: white;
   display: inline-block;
   border: 4px solid #008CBA;
   border-radius: 12px;
