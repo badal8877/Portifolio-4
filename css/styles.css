@@ -6,7 +6,18 @@ body {
   font-weight: 300;
 }
 
-main { background: #FAFAFA; color: #0277BD; } .icons-social a { color: #0277BD; } .icons-social a svg path{ fill: #0277BD; }
+main { background: #FAFAFA;
+  color: #0277BD;
+} 
+
+.icons-social a { 
+  color: #0277BD; 
+}
+
+.icons-social a svg path
+{ 
+  fill: #0277BD;
+}
 
 @media (min-width: 576px) {
   html {
@@ -36,8 +47,6 @@ main { background: #FAFAFA; color: #0277BD; } .icons-social a { color: #0277BD; 
   font-size: 3em;
 }
 
-
-/* Custom Styles */
 main {
   display: flex;
   flex-direction: column;
@@ -64,7 +73,7 @@ main>.tagline {
 }
 
 .icons-social i {
-  padding: 15px 10px 15px 10px ;
+  padding: 15px 5px 15px 5px ;
 }
 
 .devto {
