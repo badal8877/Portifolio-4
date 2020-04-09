@@ -10,15 +10,6 @@ main { background: #FAFAFA;
   color: #0277BD;
 } 
 
-.icons-social a { 
-  color: #0277BD; 
-}
-
-.icons-social a svg path
-{ 
-  fill: #0277BD;
-}
-
 @media (min-width: 576px) {
   html {
     font-size: 14px;
@@ -43,10 +34,7 @@ main { background: #FAFAFA;
   }
 }
 
-.icons-social i {
-  font-size: 3em;
-}
-
+/* Main */
 main {
   display: flex;
   flex-direction: column;
@@ -58,12 +46,16 @@ main {
   text-shadow: 2px 2px 5px #0277BD;
 }
 
+/* Intro */
+
 main>.intro {
   font-family: 'Reem Kufi', sans-serif;
   font-size: 3.50em;
   font-weight: 600;
   text-shadow: 2px 2px 5px #0277BD;
 }
+
+/* Tagline */
 
 main>.tagline {
   font-size: 1.5rem;
@@ -72,8 +64,18 @@ main>.tagline {
   text-shadow: 2px 2px 5px #0277BD;
 }
 
+/* Social icons */
+.icons-social a { 
+  color: #0277BD; 
+}
+
+.icons-social a svg path
+{ 
+  fill: #0277BD;
+}
 .icons-social i {
   padding: 15px 5px 15px 5px ;
+  font-size: 3em;
 }
 
 .devto {
@@ -86,7 +88,8 @@ main>.tagline {
   width: 2.65rem;
   height: 2.65rem;
 }
-/* Profile Picture */
+
+/*Image*/
 
 img {
   border-radius: 50%;
@@ -99,6 +102,7 @@ img {
 
 .button {
   background-color: white;
+  display: inline-block;
   border: 4px solid #008CBA;
   border-radius: 12px;
   color: #0277BD;
@@ -106,21 +110,24 @@ img {
   text-align: center;
   text-shadow: 2px 2px 5px #0277BD;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Menu Bar */
 .link {
+    background-color: white;
     display: inline-block;
-    margin: 1px 5px;
-    position: relative;
+   /* position: relative;*/
+    text-shadow: 2px 2px 5px #0277BD;
     text-decoration: none;
     padding: 10px 10px 10px 10px;
     text-align: center;
     color: #0277BD;
+    font-size: 16px;
     font-weight: 800;
     font-size: 20px;
+    margin: 1px 2px;
 }
