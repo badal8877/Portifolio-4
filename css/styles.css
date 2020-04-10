@@ -33,18 +33,11 @@ main { background: #FAFAFA;
     font-size: 20px;
   }
 }
-/* Navigation Bar*/
-.main-nav {
-    display: flex;
-}
-    
-.push {
-    margin-left: auto;
-}
 
 /* Menu Bar */
 .link {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: flex;
     text-shadow: 2px 2px 5px #0277BD;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
