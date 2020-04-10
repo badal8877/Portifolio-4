@@ -36,8 +36,8 @@ main { background: #FAFAFA;
 
 /* Menu Bar */
 .link {
-    /*display: inline-block;*/
-    display: flex;
+    display: inline-block;
+    /*display: flex;*/
     text-shadow: 2px 2px 5px #0277BD;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
