@@ -33,6 +33,14 @@ main { background: #FAFAFA;
     font-size: 20px;
   }
 }
+/* Navigation Bar*/
+.main-nav {
+    display: flex;
+}
+    
+.push {
+    margin-left: auto;
+}
 
 /* Menu Bar */
 .link {
